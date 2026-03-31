@@ -1,0 +1,13 @@
+
+
+--seccion  carta
+ un apartado en el que se puede acceder a las diferentes cosas del menu
+--seccion reservas
+una seccion donde se pueda introducir datos para la correspondiente reservas
+
+--plugins de notificaciones
+
+
+--responsive
+
+--
