@@ -1,5 +1,36 @@
 {
   "dependencies": {
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "multer": "^2.1.1",
+    "multer-storage-cloudinary": "^4.0.0",
     "node": "^25.8.2"
+  },
+  "name": "reservas-backend",
+  "version": "1.0.0",
+  "description": "backend para web reservas",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon -L src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReservasPozo/reservas-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReservasPozo/reservas-backend/issues"
+  },
+  "homepage": "https://github.com/ReservasPozo/reservas-backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
